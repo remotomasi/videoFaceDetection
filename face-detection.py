@@ -6,7 +6,7 @@ import cv2
 
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 # Read the input image
-img = cv2.imread('people.jpg')
+img = cv2.imread('images/people.jpg')
 # convert it into gray code from BGR
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 # apply a scale of 1.1 and 4
